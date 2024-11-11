@@ -1,4 +1,3 @@
-// pages/taxi/page.jsx
 "use client";
 
 import React from 'react';
@@ -16,7 +15,7 @@ const TaxiPage = () => {
             <div className="bg-white rounded-lg shadow-lg p-8">
               <h2 className="text-3xl font-semibold text-gray-800 mb-4">Fast, Reliable, Affordable</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Whether you're a tourist exploring the city or a local, our taxi service is always available to take you wherever you need to go.
+                Whether you&apos;re a tourist exploring the city or a local, our taxi service is always available to take you wherever you need to go.
               </p>
               <p className="text-lg text-gray-600 mb-6">
                 Our drivers are friendly and knowledgeable, ensuring that your journey is smooth and safe. Book your ride today and enjoy the convenience!

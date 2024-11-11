@@ -1,4 +1,5 @@
-// components/HotelsSection.jsx
+import Image from 'next/image';
+
 export default function HotelsSection() {
   return (
     <section className="py-20 bg-gray-100">
@@ -8,9 +9,12 @@ export default function HotelsSection() {
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {/* Hotel 1 */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
-          <img
+          <Image
             src="/images/Hotels/Hotel1.jpg"
             alt="Hotel Uzbekistan"
+            width={500} // Specify the width of the image
+  height={300} // Specify the height of the image
+  priority // Optional: Add this prop to prioritize image loading
             className="w-full h-64 object-cover transition-transform duration-300 hover:scale-110"
           />
           <div className="p-6">
@@ -29,9 +33,12 @@ export default function HotelsSection() {
 
         {/* Hotel 2 */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
-          <img
+        <Image
             src="/images/Hotels/Hotel2.jpg"
-            alt="Samarkand Hotel"
+            alt="Hotel Uzbekistan"
+            width={500} // Specify the width of the image
+  height={300} // Specify the height of the image
+  priority // Optional: Add this prop to prioritize image loading
             className="w-full h-64 object-cover transition-transform duration-300 hover:scale-110"
           />
           <div className="p-6">
@@ -50,9 +57,12 @@ export default function HotelsSection() {
 
         {/* Hotel 3 */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
-          <img
+        <Image
             src="/images/Hotels/Hotel3.jpg"
-            alt="Bukhara Inn"
+            alt="Hotel Uzbekistan"
+            width={500} // Specify the width of the image
+  height={300} // Specify the height of the image
+  priority // Optional: Add this prop to prioritize image loading
             className="w-full h-64 object-cover transition-transform duration-300 hover:scale-110"
           />
           <div className="p-6">
@@ -71,9 +81,12 @@ export default function HotelsSection() {
 
         {/* Hotel 4 */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
-          <img
+        <Image
             src="/images/Hotels/Hotel4.jpg"
-            alt="Bukhara Inn"
+            alt="Hotel Uzbekistan"
+            width={500} // Specify the width of the image
+  height={300} // Specify the height of the image
+  priority // Optional: Add this prop to prioritize image loading
             className="w-full h-64 object-cover transition-transform duration-300 hover:scale-110"
           />
           <div className="p-6">
@@ -92,9 +105,12 @@ export default function HotelsSection() {
 
         {/* Hotel 5 */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
-          <img
+        <Image
             src="/images/Hotels/Hotel5.jpg"
-            alt="Bukhara Inn"
+            alt="Hotel Uzbekistan"
+            width={500} // Specify the width of the image
+  height={300} // Specify the height of the image
+  priority // Optional: Add this prop to prioritize image loading
             className="w-full h-64 object-cover transition-transform duration-300 hover:scale-110"
           />
           <div className="p-6">
@@ -113,9 +129,12 @@ export default function HotelsSection() {
 
         {/* Hotel 6 */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
-          <img
+        <Image
             src="/images/Hotels/Hotel6.jpg"
-            alt="Bukhara Inn"
+            alt="Hotel Uzbekistan"
+            width={500} // Specify the width of the image
+  height={300} // Specify the height of the image
+  priority // Optional: Add this prop to prioritize image loading
             className="w-full h-64 object-cover transition-transform duration-300 hover:scale-110"
           />
           <div className="p-6">

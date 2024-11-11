@@ -56,8 +56,8 @@ export default function AboutSection() {
             Flag & Anthem
           </h3>
           <p className="text-gray-600 mb-4 text-sm sm:text-base">
-            The Flag of Uzbekistan symbolizes the country’s unity and pride. The
-            national anthem, "State Anthem of the Republic of Uzbekistan," is a
+            The Flag of Uzbekistan symbolizes the country&apos;s unity and pride. The
+            national anthem, State Anthem of the Republic of Uzbekistan, is a
             symbol of national independence.
           </p>
           <Image
@@ -110,7 +110,6 @@ export default function AboutSection() {
       </div>
 
       {/* Demographics & Diversity Section */}
-      {/* Demographics & Diversity Section */}
       <div className="bg-white p-8 sm:p-12 shadow-lg rounded-lg mb-16">
         <h3 className="text-2xl sm:text-3xl font-semibold text-green-800 mb-6 text-center">
           Population Demographics
@@ -118,7 +117,7 @@ export default function AboutSection() {
         <p className="text-base sm:text-lg text-gray-700 mb-4 text-center">
           Uzbekistan is a diverse country with a mix of ethnic groups, the
           majority being Uzbeks, followed by smaller communities of Tajiks,
-          Kazakhs, and others. The diversity of Uzbekistan’s population is an
+          Kazakhs, and others. The diversity of Uzbekistan&apos;s population is an
           important part of its cultural richness.
         </p>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8 mb-4">
@@ -177,7 +176,7 @@ export default function AboutSection() {
           </h3>
           <p className="text-gray-600 mb-4 text-sm sm:text-base">
             Shavkat Mirziyoyev, the second president of Uzbekistan, has been a
-            driving force behind the country's economic reforms and diplomatic
+            driving force behind the country&apos;s economic reforms and diplomatic
             initiatives, improving relations with neighboring nations.
           </p>
         </div>
@@ -185,39 +184,15 @@ export default function AboutSection() {
         <div className="flex flex-col items-center text-center bg-white p-6 shadow-lg rounded-lg transition-transform transform hover:scale-105 hover:shadow-xl">
           <FaHandshake className="text-green-700 text-5xl sm:text-6xl mb-4" />
           <h3 className="text-lg sm:text-xl font-semibold text-green-800 mb-2">
-            Diplomatic Relations
+            International Relations
           </h3>
           <p className="text-gray-600 mb-4 text-sm sm:text-base">
-            Uzbekistan has significantly improved its relations with neighboring
-            countries, such as Kyrgyzstan, Tajikistan, and Kazakhstan, leading
-            to regional cooperation on various fronts.
+            Uzbekistan maintains active diplomatic relations with over 130
+            countries. It plays an important role in Central Asia&apos;s geopolitical
+            landscape and continues to strengthen its position in the global community.
           </p>
         </div>
       </div>
-
-      {/* Map Section
-      <div className="bg-white p-8 sm:p-12 shadow-lg rounded-lg">
-        <h3 className="text-2xl sm:text-3xl font-semibold text-green-800 mb-6 text-center">
-          Explore Uzbekistan
-        </h3>
-        <div className="relative h-[300px] sm:h-[400px] w-full rounded-lg">
-          <MapContainer
-            center={[41.3775, 64.5853]}
-            zoom={7}
-            style={{ width: "100%", height: "100%" }}
-          >
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker
-              position={[41.3775, 64.5853]}
-              icon={
-                new Icon({ iconUrl: "/images/Marker.webp", iconSize: [32, 32] })
-              }
-            >
-              <Popup>Tashkent, Uzbekistan's capital city.</Popup>
-            </Marker>
-          </MapContainer>
-        </div>
-      </div> */}
     </section>
   );
 }
