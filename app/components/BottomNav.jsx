@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { FaHome, FaBuilding, FaCarSide, FaMapMarkedAlt, FaUserAlt, FaHotel, FaTaxi, FaUtensils } from 'react-icons/fa';
+import { IoCloudyNight } from 'react-icons/io5'; // Weather icon
 
 const BottomNav = ({ name }) => {
   const router = useRouter();
@@ -23,6 +24,9 @@ const BottomNav = ({ name }) => {
         break;
       case 'account':
         router.push('/account');
+        break;
+      case 'weather':
+        router.push('/weather'); // Navigate to the weather page
         break;
       default:
         router.push('/');
@@ -121,6 +125,18 @@ const BottomNav = ({ name }) => {
         <span className="text-sm mt-1">Tickets</span>
       </div>
 
+      {/* Weather Tab */}
+      <div
+        onClick={() => setActiveTabs('weather')} // Weather route
+        className="flex flex-col items-center justify-center w-1/5 h-full cursor-pointer"
+      >
+        <IoCloudyNight
+          size={25}
+          className={`${activeTabs === 'weather' ? 'text-red-500' : 'text-gray-300'} transition-colors duration-300`}
+        />
+        <span className="text-sm mt-1">Weather</span>
+      </div>
+      
       {/* Account Tab */}
       <div
         onClick={() => setActiveTabs('account')}
@@ -132,6 +148,7 @@ const BottomNav = ({ name }) => {
         />
         <span className="text-sm mt-1">Account</span>
       </div>
+
     </div>
   );
 };
