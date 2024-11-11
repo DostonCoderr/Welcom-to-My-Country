@@ -37,7 +37,7 @@ export default function NewsSection() {
             <div className="text-xs font-semibold text-gray-500 uppercase mb-2">Samarkand, Uzbekistan • Nov 2024</div>
             <h3 className="text-2xl font-semibold text-blue-800 mb-3">New Tourism Policy Boosts Uzbekistan Economy</h3>
             <p className="text-gray-700 mb-4">
-              The new tourism policy has opened up new opportunities with an increase in tourists coming from around the world, boosting the country's economy.
+              The new tourism policy has opened up new opportunities with an increase in tourists coming from around the world, boosting the country&apos;s economy.
             </p>
             <a
               href="#"
