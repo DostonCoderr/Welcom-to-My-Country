@@ -3,17 +3,12 @@
 import {
   FaFlag,
   FaMapMarkedAlt,
-  FaUsers,
-  FaIndustry,
-  FaCity,
   FaGlobe,
   FaCalendar,
   FaUserTie,
   FaHandshake,
 } from "react-icons/fa";
 import Image from "next/image";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import { Icon } from "leaflet";
 import "leaflet/dist/leaflet.css"; // Don't forget to include Leaflet CSS
 
 export default function AboutSection() {
@@ -184,15 +179,17 @@ export default function AboutSection() {
         <div className="flex flex-col items-center text-center bg-white p-6 shadow-lg rounded-lg transition-transform transform hover:scale-105 hover:shadow-xl">
           <FaHandshake className="text-green-700 text-5xl sm:text-6xl mb-4" />
           <h3 className="text-lg sm:text-xl font-semibold text-green-800 mb-2">
-            International Relations
+            Diplomatic Relations
           </h3>
           <p className="text-gray-600 mb-4 text-sm sm:text-base">
-            Uzbekistan maintains active diplomatic relations with over 130
-            countries. It plays an important role in Central Asia&apos;s geopolitical
-            landscape and continues to strengthen its position in the global community.
+            Uzbekistan plays a vital role in Central Asia, fostering diplomatic
+            ties with many countries. The government has prioritized economic
+            development and regional stability.
           </p>
         </div>
       </div>
+
+
     </section>
   );
 }
